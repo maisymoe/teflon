@@ -1,12 +1,12 @@
 # teflon
-extension browser for moonlight
+extension browser for [moonlight](//github.com/moonlight-mod)
 
 ## scripts
-dependencies are maintained via [pnpm](https://pnpm.io) using `pnpm up -Lri`, and these scripts are available:
+dependencies are maintained via [pnpm](//pnpm.io) using `pnpm up -Lri`, and these scripts are available:
 
 ### `pnpm dev` or `pnpm start`
 * run teflon in development mode.
-* open [http://localhost:3000](http://localhost:3000) to view it in the browser - the page will reload when you make an edit.
+* open [localhost:3000](http://localhost:3000) to view it in the browser - the page will reload when you make an edit.
 
 ### `pnpm build`
 * builds teflon for production into the `dist` folder.
