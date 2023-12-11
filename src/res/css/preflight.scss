@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Monaspace Flex";
+    src: url("MonaspaceNeonVar-VF.woff2") format("woff2-variations");
+    src: url("MonaspaceNeonVar-VF.woff2") format("woff2") tech("variations");
+    font-weight: 200 800;
+    font-stretch: 100% 125%;
+    font-variation-settings: "ital" 0 -11;
+}
+
+::selection {
+    background: "theme.colors.selection";
+}
+
+a {
+    transition: opacity 150ms cubic-bezier(0.4, 0, 0.2, 1);
+    color: "theme.colors.accent-alt" !important;
+}
+
+a:hover {
+    opacity: 75%;
+}
+
+h1 {
+    color: "theme.colors.header";
+    font-size: 1.75rem !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    color: "theme.colors.header";
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    margin-top: 0.75rem !important;
+}
+
+h3 {
+    color: "theme.colors.header";
+    font-size: 1.25rem !important;
+    font-weight: 500 !important;
+    margin-top: 0.5rem !important;
+}
+
+h4 {
+    color: "theme.colors.header";
+    font-size: 1.15rem !important;
+    font-weight: 400 !important;
+    margin-top: 0.25rem !important;
+}
+
+code {
+    background-color: "theme.colors.secondary";
+    border-radius: 0.2rem;
+    padding: 0.1rem;
+    font-family: "theme.fontFamily.mono" !important;
+}
