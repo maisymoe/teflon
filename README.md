@@ -1,15 +1,15 @@
 # teflon
 extension browser for moonlight
-dependencies are maintained via [pnpm](https://pnpm.io) using `pnpm up -Lri`.
 
 ## scripts
+dependencies are maintained via [pnpm](https://pnpm.io) using `pnpm up -Lri`, and these scripts are available:
 
 ### `pnpm dev` or `pnpm start`
 * run teflon in development mode.
 * open [http://localhost:3000](http://localhost:3000) to view it in the browser - the page will reload when you make an edit.
 
-### `npm run build`
-builds teflon for production into the `dist` folder.<br>
+### `pnpm build`
+* builds teflon for production into the `dist` folder.
 
-## Deployment
-you can deploy the `dist` folder to any static host provider (vercel, gh pages, netlify, etc.)
+## deployment
+you can deploy the `dist` folder to any static host provider, such as vercel, gh pages, netlify, etc.
